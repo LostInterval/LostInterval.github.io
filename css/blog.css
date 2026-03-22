@@ -1,0 +1,68 @@
+/* 标题样式 */
+h1, h2, h3, h4 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* 段落样式 */
+p {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 1em;
+}
+
+/* 列表样式 */
+ul, ol {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+/* 表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+th, td {
+    border: 1px solid #bdc3c7;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #ecf0f1;
+}
+
+/* 代码块样式 */
+pre {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+code {
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+/* 高亮关键字 */
+.mark {
+    background-color: #ffeaa7;
+    font-weight: bold;
+}
+
+/* 链接样式 */
+a {
+    color: #0984e3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
